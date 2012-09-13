@@ -1,0 +1,4 @@
+PODS_ROOT = ${SRCROOT}/Pods
+ALWAYS_SEARCH_USER_PATHS = YES
+OTHER_LDFLAGS = -ObjC -lxml2.2 -lz.1 -framework CFNetwork -framework CoreGraphics -framework ImageIO -framework MobileCoreServices -framework SystemConfiguration
+HEADER_SEARCH_PATHS = $(SDKROOT)/usr/include/libxml2 "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/ASIHTTPRequest" "${PODS_ROOT}/Headers/JSONKit" "${PODS_ROOT}/Headers/Reachability" "${PODS_ROOT}/Headers/SDWebImage"

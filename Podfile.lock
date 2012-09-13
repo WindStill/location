@@ -1,0 +1,21 @@
+PODS:
+  - ASIHTTPRequest (1.8.1):
+    - ASIHTTPRequest/ASIWebPageRequest (= 1.8.1)
+    - ASIHTTPRequest/CloudFiles (= 1.8.1)
+    - ASIHTTPRequest/S3 (= 1.8.1)
+    - Reachability
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.1):
+    - Reachability
+  - ASIHTTPRequest/CloudFiles (1.8.1):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.1):
+    - Reachability
+  - JSONKit (1.5pre)
+  - Reachability (3.0.0)
+  - SDWebImage (2.7)
+
+DEPENDENCIES:
+  - ASIHTTPRequest
+  - JSONKit (~> 1.4)
+  - Reachability (~> 3.0.0)
+  - SDWebImage
