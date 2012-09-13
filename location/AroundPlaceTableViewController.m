@@ -128,6 +128,9 @@
     vicinityLabel.text = strDistance;
     
     
+    // test
+    
+    
     return cell;
 }
 
