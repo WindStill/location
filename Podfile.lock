@@ -1,21 +1,33 @@
+
 PODS:
-  - ASIHTTPRequest (1.8.1):
-    - ASIHTTPRequest/ASIWebPageRequest (= 1.8.1)
-    - ASIHTTPRequest/CloudFiles (= 1.8.1)
-    - ASIHTTPRequest/S3 (= 1.8.1)
-    - Reachability
-  - ASIHTTPRequest/ASIWebPageRequest (1.8.1):
-    - Reachability
-  - ASIHTTPRequest/CloudFiles (1.8.1):
-    - Reachability
-  - ASIHTTPRequest/S3 (1.8.1):
-    - Reachability
-  - JSONKit (1.5pre)
-  - Reachability (3.0.0)
-  - SDWebImage (2.7)
+- ASIHTTPRequest (1.8.1):
+  - ASIHTTPRequest/ASIWebPageRequest (= 1.8.1)
+  - ASIHTTPRequest/CloudFiles (= 1.8.1)
+  - ASIHTTPRequest/S3 (= 1.8.1)
+  - Reachability
+- ASIHTTPRequest/ASIWebPageRequest (1.8.1):
+  - Reachability
+- ASIHTTPRequest/CloudFiles (1.8.1):
+  - Reachability
+- ASIHTTPRequest/S3 (1.8.1):
+  - Reachability
+- JSONKit (1.5pre)
+- Reachability (3.0.0)
+- SDWebImage (2.7)
 
 DEPENDENCIES:
-  - ASIHTTPRequest
-  - JSONKit (~> 1.4)
-  - Reachability (~> 3.0.0)
-  - SDWebImage
+- ASIHTTPRequest
+- JSONKit (~> 1.4)
+- Reachability (~> 3.0.0)
+- SDWebImage
+
+SPEC CHECKSUMS:
+  ASIHTTPRequest: e606d2df58b0aace6c1cf1d39a08d3484f91324a
+  ASIHTTPRequest/ASIWebPageRequest: e606d2df58b0aace6c1cf1d39a08d3484f91324a
+  ASIHTTPRequest/CloudFiles: e606d2df58b0aace6c1cf1d39a08d3484f91324a
+  ASIHTTPRequest/S3: e606d2df58b0aace6c1cf1d39a08d3484f91324a
+  JSONKit: a01a22c75f27eae76b4badd55a91c20fe6e86477
+  Reachability: 500bd76bf6cd8ff2c6fb715fc5f44ef6e4c024f2
+  SDWebImage: 46ddc51b46f6d53b1ac3c04789f9f648975ff570
+
+COCOAPODS: 0.14.0
