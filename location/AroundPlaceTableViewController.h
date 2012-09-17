@@ -13,8 +13,9 @@
 #import "JSONKit.h"
 #import "UIImageView+WebCache.h"
 #import "math.h"
+#import "PullRefreshTableViewController.h"
 
-@interface AroundPlaceTableViewController : UITableViewController
+@interface AroundPlaceTableViewController : PullRefreshTableViewController
 <MKMapViewDelegate, CLLocationManagerDelegate>
 {
     MKMapView *map;

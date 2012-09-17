@@ -16,7 +16,7 @@
                     </view>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="798" y="165"/>
+            <point key="canvasLocation" x="981" y="152"/>
         </scene>
         <!--Around Place Table View Controller - Item-->
         <scene sceneID="ZJ9-il-y0h">
@@ -103,6 +103,10 @@
             <point key="canvasLocation" x="-107" y="-229"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="pin_map_icon.png" width="24" height="24"/>
+        <image name="podcast_icon.png" width="24" height="24"/>
+    </resources>
     <classes>
         <class className="AroundPlaceTableViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/AroundPlaceTableViewController.h"/>
