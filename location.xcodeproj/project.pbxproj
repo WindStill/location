@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		04105E1B160720BA00A1AFCF /* PullRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04105E1A160720BA00A1AFCF /* PullRefreshTableViewController.m */; };
 		0427F5091601AAF20099B333 /* AroundPlaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0427F5081601AAF20099B333 /* AroundPlaceTableViewController.m */; };
+		0439C3D6160B1BA200C40D21 /* WDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0439C3D5160B1BA200C40D21 /* WDUtil.m */; };
+		044841E2160AACAE00F02358 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044841E1160AACAE00F02358 /* CFNetwork.framework */; };
+		044841E5160AB46100F02358 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044841E4160AB46100F02358 /* Security.framework */; };
+		044841E8160AB69B00F02358 /* spechbubble_2_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 044841E6160AB69B00F02358 /* spechbubble_2_icon.png */; };
+		044841E9160AB69B00F02358 /* spechbubble_2_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 044841E7160AB69B00F02358 /* spechbubble_2_icon@2x.png */; };
+		044841EC160AB78000F02358 /* users_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 044841EA160AB78000F02358 /* users_icon.png */; };
+		044841ED160AB78000F02358 /* users_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 044841EB160AB78000F02358 /* users_icon@2x.png */; };
+		044841F0160AC9F200F02358 /* SocketDemosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044841EF160AC9F200F02358 /* SocketDemosViewController.m */; };
 		04A28A7E160177BA0094C824 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A28A7D160177BA0094C824 /* UIKit.framework */; };
 		04A28A80160177BA0094C824 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A28A7F160177BA0094C824 /* Foundation.framework */; };
 		04A28A82160177BA0094C824 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A28A81160177BA0094C824 /* CoreGraphics.framework */; };
@@ -33,6 +41,16 @@
 		04105E1A160720BA00A1AFCF /* PullRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullRefreshTableViewController.m; sourceTree = "<group>"; };
 		0427F5071601AAF20099B333 /* AroundPlaceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AroundPlaceTableViewController.h; sourceTree = "<group>"; };
 		0427F5081601AAF20099B333 /* AroundPlaceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AroundPlaceTableViewController.m; sourceTree = "<group>"; };
+		0439C3D4160B1BA200C40D21 /* WDUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDUtil.h; sourceTree = "<group>"; };
+		0439C3D5160B1BA200C40D21 /* WDUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDUtil.m; sourceTree = "<group>"; };
+		044841E1160AACAE00F02358 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		044841E4160AB46100F02358 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		044841E6160AB69B00F02358 /* spechbubble_2_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spechbubble_2_icon.png; sourceTree = "<group>"; };
+		044841E7160AB69B00F02358 /* spechbubble_2_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spechbubble_2_icon@2x.png"; sourceTree = "<group>"; };
+		044841EA160AB78000F02358 /* users_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = users_icon.png; sourceTree = "<group>"; };
+		044841EB160AB78000F02358 /* users_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "users_icon@2x.png"; sourceTree = "<group>"; };
+		044841EE160AC9F200F02358 /* SocketDemosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketDemosViewController.h; sourceTree = "<group>"; };
+		044841EF160AC9F200F02358 /* SocketDemosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketDemosViewController.m; sourceTree = "<group>"; };
 		04A28A79160177BA0094C824 /* location.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = location.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A28A7D160177BA0094C824 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		04A28A7F160177BA0094C824 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,6 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044841E5160AB46100F02358 /* Security.framework in Frameworks */,
+				044841E2160AACAE00F02358 /* CFNetwork.framework in Frameworks */,
 				04F98A4B16070F4700E165E9 /* QuartzCore.framework in Frameworks */,
 				04A28AB41601826F0094C824 /* CoreLocation.framework in Frameworks */,
 				04A28AAA16017F330094C824 /* MapKit.framework in Frameworks */,
@@ -76,9 +96,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0439C3D2160B1B6800C40D21 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				0439C3D4160B1BA200C40D21 /* WDUtil.h */,
+				0439C3D5160B1BA200C40D21 /* WDUtil.m */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
 		04A28A6E160177BA0094C824 = {
 			isa = PBXGroup;
 			children = (
+				0439C3D2160B1B6800C40D21 /* utils */,
 				04F98A201606C85300E165E9 /* images */,
 				04A28A83160177BA0094C824 /* location */,
 				04A28A7C160177BA0094C824 /* Frameworks */,
@@ -98,6 +128,8 @@
 		04A28A7C160177BA0094C824 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				044841E4160AB46100F02358 /* Security.framework */,
+				044841E1160AACAE00F02358 /* CFNetwork.framework */,
 				04F98A4A16070F4700E165E9 /* QuartzCore.framework */,
 				04A28AB31601826F0094C824 /* CoreLocation.framework */,
 				04A28AA916017F330094C824 /* MapKit.framework */,
@@ -115,6 +147,8 @@
 				04A28A8C160177BA0094C824 /* AppDelegate.h */,
 				04A28A8D160177BA0094C824 /* AppDelegate.m */,
 				04A28A8F160177BA0094C824 /* MainStoryboard.storyboard */,
+				044841EE160AC9F200F02358 /* SocketDemosViewController.h */,
+				044841EF160AC9F200F02358 /* SocketDemosViewController.m */,
 				04A28A92160177BA0094C824 /* ViewController.h */,
 				0427F5071601AAF20099B333 /* AroundPlaceTableViewController.h */,
 				0427F5081601AAF20099B333 /* AroundPlaceTableViewController.m */,
@@ -142,6 +176,10 @@
 			children = (
 				04F98A471606E99C00E165E9 /* arrow.png */,
 				04F98A261606C89800E165E9 /* podcast_icon.png */,
+				044841EA160AB78000F02358 /* users_icon.png */,
+				044841EB160AB78000F02358 /* users_icon@2x.png */,
+				044841E6160AB69B00F02358 /* spechbubble_2_icon.png */,
+				044841E7160AB69B00F02358 /* spechbubble_2_icon@2x.png */,
 				04F98A271606C89800E165E9 /* podcast_icon@2x.png */,
 				04F98A221606C86C00E165E9 /* pin_map_icon.png */,
 				04F98A231606C86C00E165E9 /* pin_map_icon@2x.png */,
@@ -207,6 +245,10 @@
 				04F98A281606C89800E165E9 /* podcast_icon.png in Resources */,
 				04F98A291606C89800E165E9 /* podcast_icon@2x.png in Resources */,
 				04F98A481606E99C00E165E9 /* arrow.png in Resources */,
+				044841E8160AB69B00F02358 /* spechbubble_2_icon.png in Resources */,
+				044841E9160AB69B00F02358 /* spechbubble_2_icon@2x.png in Resources */,
+				044841EC160AB78000F02358 /* users_icon.png in Resources */,
+				044841ED160AB78000F02358 /* users_icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +281,8 @@
 				04A28A94160177BA0094C824 /* ViewController.m in Sources */,
 				0427F5091601AAF20099B333 /* AroundPlaceTableViewController.m in Sources */,
 				04105E1B160720BA00A1AFCF /* PullRefreshTableViewController.m in Sources */,
+				044841F0160AC9F200F02358 /* SocketDemosViewController.m in Sources */,
+				0439C3D6160B1BA200C40D21 /* WDUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -179,7 +179,7 @@
 }
 
 - (void)refresh{
-    [self performSelector:@selector(pullToRefreshTableData) withObject:nil afterDelay:2.0];
+    [self performSelector:@selector(pullToRefreshTableData) withObject:nil afterDelay:0.5];
 }
 
 - (void)pullToRefreshTableData{
